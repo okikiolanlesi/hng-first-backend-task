@@ -11,10 +11,10 @@ app.get("/", (req, res) => {
   });
 });
 
-app.listen(3100, "localhost", (err, data) => {
+app.listen(3000, "localhost", (err, data) => {
   if (err) {
     console.log("Error occured");
   } else {
-    console.log("Server is running on port 3100");
+    console.log("Server is running on port 3000");
   }
 });
