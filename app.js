@@ -11,7 +11,7 @@ app.get("/", (req, res) => {
   });
 });
 
-app.listen(process.env.PORT, "localhost", (err, data) => {
+app.listen(process.env.PORT, "0.0.0.0", (err, data) => {
   if (err) {
     console.log("Error occured");
   } else {
